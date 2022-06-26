@@ -61,6 +61,7 @@ Complete the following steps:
 generate_account
 get_balance
 send_transaction
+
 4. Within the Streamlit sidebar section of code, create a variable named account. Set this variable equal to a call on the generate_account function. This function will create the Fintech Finder customer’s (in this case, your) HD wallet and Ethereum account.
 
 5. Within this same section of the fintech_finder.py file, define a new st.sidebar.write function that will display the balance of the customer’s account. Inside this function, call the get_balance function and pass it your Ethereum account.address.
